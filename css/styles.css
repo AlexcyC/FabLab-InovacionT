@@ -447,7 +447,7 @@ template {
   text-transform: capitalize; }
 
 #top {
-  background: #0bc4c4; }
+  background: #2AB527; }
 
 .top__item {
   width: 100%;
@@ -457,7 +457,7 @@ template {
     padding: 0;
     color: #53585E; }
   .top__item a {
-    color: #f1f1f2; }
+    color: #EBEECF; }
 
 .main-menu {
   width: 100%; }
@@ -627,7 +627,7 @@ template {
       .main-header__copy {
         width: 50%; } }
     .main-header__copy__text {
-      font-size: 1.25em; }
+      font-size: 1.5em; }
 
 #header {
   display: -webkit-box;
@@ -646,11 +646,11 @@ template {
   align-content: center;
   position: relative;
   height: 100vh;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgW8JvPuV7fvLA-y4y2MFKqGszUAyMul_z_QyHkWyTQ0TzHkRp4Q") center/cover; }
+  background: url("../img/banner.jpeg") center/cover; }
   #header:before {
     content: "";
     position: absolute;
-    background: rgba(50, 248, 255, 0.7);
+    background: rgba(40, 243, 48, 0.42);
     width: 50%;
     height: 100%;
     left: 0;
@@ -677,7 +677,7 @@ template {
     width: 60%;
     background: #f1f1f2; }
     .team__item__description__name {
-      color: #0bc4c4;
+      color: #1B8016;
       font-weight: 600;
       font-size: 1.15em; }
     .team__item__description__info {
@@ -732,7 +732,7 @@ template {
         font-weight: 600;
         margin: 0; }
     .projects__item:nth-child(1) {
-      background: url("https://i.imgur.com/oN0cq6s.jpg") center/cover; }
+      background: url("../img/banner.jpg") center/cover; }
       .projects__item:nth-child(1):before {
         content: "";
         position: absolute;
@@ -761,7 +761,7 @@ template {
       color: #53585E;
       text-transform: capitalize; }
       .design__title__text h1 span {
-        color: #0bc4c4; }
+        color: #2AB527; }
   .design__title__content {
     width: 100%;
     color: #0D0D0D; }
@@ -775,7 +775,7 @@ template {
       width: 50%; } }
   .design__item__icon {
     width: 20%;
-    background: #0bc4c4;
+    background: #2AB527;
     margin-bottom: .3em;
     font-size: 3em;
     text-align: center;
@@ -798,7 +798,7 @@ template {
       display: block; }
       .design__item__info__title:hover {
         text-decoration: none;
-        color: #0bc4c4; }
+        color: #F3D328; }
     .design__item__info__details {
       font-size: .9em;
       color: #0D0D0D; }
@@ -837,7 +837,7 @@ template {
       width: 50%; } }
   .think__details__icon {
     width: 20%;
-    background: #0bc4c4;
+    background: #F3D328;
     margin-bottom: .5em;
     font-size: 3em;
     text-align: center;
@@ -940,7 +940,7 @@ template {
       color: #53585E;
       text-transform: capitalize; }
       .projectsFinal__title__text h1 span {
-        color: #0bc4c4; }
+        color: #2AB527; }
   .projectsFinal__title__content {
     width: 100%;
     color: #0D0D0D; }
@@ -955,7 +955,7 @@ template {
       margin-right: auto; } }
   .projectsFinal__week__icon {
     width: 25%;
-    background: #0bc4c4;
+    background: #2AB527;
     border-radius: 50%;
     color: #fff;
     font-size: 2.5em;
@@ -989,4 +989,4 @@ template {
       display: block; }
       .projectsFinal__week__details__week:hover {
         text-decoration: none;
-        color: #0bc4c4; }
+        color: #c4a60b; }
