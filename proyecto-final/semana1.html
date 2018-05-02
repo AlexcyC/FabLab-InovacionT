@@ -53,6 +53,24 @@
         <div class="think">
             <div class="think__img">
                 <img src="../img/LEDLamp.jpg" alt="">
+            <div class="think__details__extra">
+                    <p class="think__details__extra__title">ESTAPA ELECTRONICA DIGITAL DEL PROYECTO</p>
+                    <p class="think__details__extra__title">El Controlador para Tiras RGB</p>
+                    <p>Aquí describiremos la realización del controlador para las tiras LED que usaremos en nuestras lámparas. El sistema que presentamos tiene la gran ventaja de usar 3 MOSFETs de altísima potencia de salida (uno para cada canal) que nos permiten de conectar muchos metros de tiras de leds.</p>
+                    <img src="../img/tirargb.jpg" alt="">
+                    <p>El regulador de color trabaja sobre tres canales (rojo, verde y azul, cuya sigla en inglés es RGB) variando continuamente la intensidad de ellos. Como el ciclo de encendido y apagado es levemente distinto entre los 3 canales, se obtienen todos los colores posibles con transiciones progresivas.</p>
+                    <img src="../img/VARIADORCIRCUITO.jpg" alt="">
+                    <p class="think__details__extra__title">El Circuito</p>
+                    <p>El circuito usa un microcontrolador PIC12F629 de la Microchip. Debido a que el programa está hecho sin usar ninguna de las funciones especiales del micro (timer, ADC, etc.), con pequeñas modificaciones del listado se puede reemplazar por cualquier micro de la Microchip.</p>
+                    <img src="../img/montaje.jpg" alt="">
+                    <p>El trimmer permite de regular la velocidad de transición de los colores. Para leer el trimmer he desarrollado una función especial que mide el tiempo de descarga de un capacitor conectado a uno de los pin del micro.</p>
+                    <img src="../img/IMPRESIONCIRCUITO.jpg" alt="">
+                    <p>La corriente que va a los leds, a través de los transistores, no pasa por este regulador y por lo tanto podemos usar le versión 78L05 de baja corriente, que es muy pequeña y económica (parece un transistor). Los capacitores de 100nF y de 22uF 25V sirven para filtrar la alimentación de 12V. La velocidad de variación de la luces se controla con un trimmer (o preset) de 50K. Este será  reemplazado con un potenciómetro del mismo valor montado directamente en la plaqueta como se observa en las fotografías o externamente, conectándolo a través de cables cortos a la plaqueta.</p>
+                    <p class="think__details__extra__title">Montaje</p>
+                    <p>Para obtener la máxima potencia de este circuito, es necesario montar un disipador de calor para los MOSFETs. Para ello he pensado de usar un disipador casero hecho simplemente con un perfil rectangular de aluminio de 1 cm. de ancho. La altura y la longitud puede ser cualquiera. Naturalmente más grande es el disipador, más potencia se puede obtener de nuestro circuito. En el prototipo que se ve en las fotografías y en los diseños yo he usado un perfil de 4 cm. x 1 cm. de ancho x 2 cm. de altura. </p>
+                    <img src="../img/disipador.jpg" alt="">
+                    <p>El trimmer permite de regular la velocidad de transición de los colores. Para leer el trimmer he desarrollado una función especial que mide el tiempo de descarga de un capacitor conectado a uno de los pin del micro.</p>
+                </div>
             </div>
             <div class="think__details">
                 <div class="think__details__icon">
@@ -69,10 +87,27 @@
                 </div>
                 <div class="think__details__extra">
                     <p class="think__details__extra__title">Eleccion de Nuestra Propuesta de Proyecto</p>
-                    <p class="think__details__extra__description">Realizamos la elección de nuestro proyecto cumpliendo los requerimientos de cada actividad.
-                    <br>
+                    <p class="think__details__extra__description">Realizamos la elección de nuestro proyecto cumpliendo los requerimientos de cada actividad.<br>
                     </p>
                     <a href="https://drive.google.com/open?id=1q6TV-Mw4yBo7VJGMRsAzjhFFfVJuGq1v" target="_blank">Documento - Bosquejo Inicial</a>
+                    <p class="think__details__extra__title">Elenco de componentes</p>
+                    <p>1 resistencia de 330 ohms 1/4 Watt</p>
+                    <p>1 resistencia de 1,8K 1/4 Watt</p>
+                    <p>7 resistencias de 10K 1/4 Watt</p>
+                    <p>1 trimmer o potenciómetro de 50K</p>
+                    <p>3 capacitores de 100nF</p>
+                    <p>1 capacitor 22uF 25V</p>
+                    <p>1 led verde de 3mm</p>
+                    <p>3 transistores BC548 (o BC547)</p>
+                    <p>3 transistores mosfet IRF530</p>
+                    <p>1 PIC12F629</p>
+                    <p>1 regulador 78L05</p>
+                    <p>1 zócalo para circuito integrado de 8 pins</p>
+                    <p>1 puente (jumper) de dos pins (opcional)</p>
+                    <p>1 conector con bornes de dos vías</p>
+                    <p>1 conector con bornes de 4 vías</p>
+                    <p>1 disipador de calor (ver texto)</p>
+                    <p>3 kits para montaje de TO-220 a un disipador</p>
                 </div>
             </div>
         </div>
